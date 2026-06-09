@@ -9,7 +9,8 @@
     "packages/*"
   ],
   "scripts": {
-    "copilot": "npm run -w copilot start"
+    "copilot": "npm run -w copilot start",
+    "gemini": "npm run -w gemini start"
   },
   "devDependencies": {
     "@types/node": "^25.9.2"

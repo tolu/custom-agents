@@ -1,0 +1,16 @@
+{
+  "name": "gemini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mts",
+  "scripts": {
+      "start": "node --env-file-if-exists=.env.local main.mts"
+  },
+  "keywords": [],
+  "author": "Tobias Lundin",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.8.0"
+  }
+}

@@ -1,2 +1,3 @@
 node_modules
-packages/copilot/reasoning.log
+reasoning.log
+.env.local
