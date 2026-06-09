@@ -1,0 +1,17 @@
+{
+  "name": "custom-agents",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Tobias Lundin",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "copilot": "npm run -w copilot start"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2"
+  }
+}

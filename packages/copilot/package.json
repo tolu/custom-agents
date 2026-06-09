@@ -1,0 +1,16 @@
+{
+  "name": "copilot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mts",
+  "scripts": {
+      "start": "node main.mts"
+  },
+  "keywords": [],
+  "author": "Tobias Lundin",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.0"
+  }
+}
