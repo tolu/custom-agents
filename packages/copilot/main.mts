@@ -1,6 +1,6 @@
 import { CopilotClient } from "@github/copilot-sdk";
 import * as readline from "readline";
-import { getWeather } from "./weatherTool.mts";
+import { getWeather } from "./tools/weatherTool.mts";
 import { log } from "./log.mts";
 
 // Create client and session
