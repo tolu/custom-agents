@@ -22,7 +22,10 @@ const handlers = new Map(tools.map((t) => [t.declaration.name, t.handler]));
 // session and discovers skills natively), here we register everything as plain
 // Gemini function declarations and steer skill use via the system prompt.
 const chat = ai.chats.create({
-    model: "gemini-3-flash-preview",
+    // gemini-3-flash-preview returns only an encrypted thoughtSignature, never
+    // readable thought-summary parts — so includeThoughts produced nothing to
+    // log. gemini-3.5-flash emits actual summary parts (part.thought === true).
+    model: "gemini-3.5-flash",
     config: {
         systemInstruction:
             "You are a helpful custom agent. When a question matches an available " +
